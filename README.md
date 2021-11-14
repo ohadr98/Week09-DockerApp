@@ -26,7 +26,7 @@ and create CICD with Docker container
 
 - You need to create Environment Varibles in azure pipeline for all the secret varibles.
 
--When you finish to add all the varibles run the pipeline.
+- When you finish to add all the varibles run the pipeline.
   
 
 
