@@ -2,7 +2,7 @@
 # Docker    <img src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/horizontal-logo-monochromatic-white.png?itok=SBlK2TGU" width="400" height="130" align="right"/>
 
 In this project we were asked to create 2 environment - staging/production
-and create CICD with Docker container
+and create CICD with Docker 
 
 ## Requirements and Installations:
 - [Node.js](https://nodejs.org/) 12.x or higher
@@ -20,13 +20,13 @@ and create CICD with Docker container
   
 - Enter to One Of your machine and create agent using  [System prerequisites](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops#check-prerequisites)
 
-- Create Environments in azure devop for staging and production  and add the Prod VM to the Production and staging VM to Staging
+- You need to create Environments in azure devop for staging and production  and add the Prod VM to the Production and staging VM to Staging (Environment support the Yaml and     deployment group are not
 
 - To get docker permissions you need to write in each machine `sudo chmod 777 /var/run/docker.sock`
 
-- You need to create Environment Varibles in azure pipeline for all the secret varibles.
+- You need to create Environment Varibles in azure pipeline for all the secret varibles
 
-- When you finish to add all the varibles run the pipeline.
+- When you finish to add all the varibles run the pipeline and run in the broswer your hosturl:8080 to see if the app running
   
 
 
